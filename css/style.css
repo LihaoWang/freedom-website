@@ -148,24 +148,14 @@ section.home {
   align-items: center;
 } */
 
-/* @media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1500px) {
   section.home {
-    width: 50%;
-    height: 100%;
+    width: 70%;
   }
   header {
-    width: 50%;
+    width: 70%;
   }
-  .wrap {
-    width: 50%;
-  }
-  .wrap img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 100vh;
-  }
-} */
+}
 
 /* @media (max-width: 1068px) {
   .home-img {

@@ -59,6 +59,9 @@ header {
   font-size: 20px;
   font-weight: 400;
 }
+.nav-link:hover {
+  color: var(--primary-color);
+}
 
 .logo-container {
   /* background: lightblue; */
@@ -70,16 +73,20 @@ header {
   font-size: 30px;
   margin-left: 10px;
 }
+.freedom-logo {
+  width: 60px;
+}
+.mockup {
+  display: none;
+}
 
 nav {
-  /* background: lightcoral; */
   flex: 1;
 }
 .home-content {
   position: absolute;
   top: 20%;
   left: 0;
-  /* background: turquoise; */
   z-index: 10;
   max-width: 500px;
 }
@@ -100,11 +107,6 @@ section.home {
   height: 100%;
   animation: drop 1.5s ease;
 }
-
-/* section.home {
-  flex-direction: row;
-  margin-top: 0;
-} */
 
 /* BUTTON */
 .btn {
@@ -134,26 +136,54 @@ section.home {
   }
 }
 
-/* HOMEPAGE */
-
-/* .home-img {
-  position: absolute;
-  height: 100%;
-} */
-
-/* .home {
-  display: flex;
-  margin: auto;
-  width: 90%;
-  align-items: center;
-} */
-
 @media only screen and (min-width: 1500px) {
   section.home {
-    width: 70%;
+    width: 1300px;
   }
   header {
-    width: 70%;
+    width: 1300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mockup {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  header {
+    height: 15vh;
+  }
+  .cover {
+    display: none;
+  }
+  .home-content {
+    top: 20px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+  }
+  header {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .freedom-logo {
+    width: 50px;
+  }
+  .nav-links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .nav-link {
+    padding: 10px;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 30px;
   }
 }
 

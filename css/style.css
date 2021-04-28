@@ -85,7 +85,7 @@ nav {
 }
 .home-content {
   position: relative;
-  margin-left: 50vw;
+  margin-left: calc(50vw * 1.05);
   /* top: 20vh;
   right: 200px; */
   /* top: 20%;
@@ -94,7 +94,7 @@ nav {
   /* max-width: 500px; */
   width: 40vw;
 
-  padding: 0 0 0 50px;
+  /* padding: 0 0 0 50px; */
   align-items: center;
 }
 
@@ -139,7 +139,26 @@ section.home {
 .btn:hover {
   transform: scale(0.98);
 }
-
+footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+.footer-icon {
+  color: grey;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.footer-text {
+  font-size: 15px;
+  margin: 5px 0 0 0;
+}
 @keyframes drop {
   0% {
     opacity: 0;
@@ -167,22 +186,26 @@ section.home {
 }
 
 @media (max-width: 1000px) {
-  .mockup {
-    display: block;
-    width: 90%;
-    margin: auto;
+  section.home {
+    flex-direction: column;
   }
   header {
     height: 15vh;
   }
   .cover {
-    display: none;
+    display: block;
+    transform: none;
+    width: 100%;
+    position: relative;
+    margin-right: 0;
   }
   .home-content {
     top: 20px;
     position: relative;
     text-align: center;
-    margin: auto;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 90%;
   }
   header {
     flex-direction: column;
@@ -205,6 +228,51 @@ section.home {
   }
   h1 {
     font-size: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  h1 {
+    font-size: 22px;
+  }
+  .tag-line {
+    font-size: 15px;
+  }
+  section.home {
+    height: 75vh;
+  }
+  .btn {
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px 8px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .download-link {
+    font-size: 12px;
+  }
+  p {
+    margin: 15px 0 10px;
+    font-size: 12px;
+  }
+  .home-content {
+    padding-top: 20px;
+  }
+  footer {
+    font-size: 25px;
+  }
+  .nav-links {
+    margin: 10px 0 15px 0;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .freedom-logo {
+    width: 35px;
   }
 }
 

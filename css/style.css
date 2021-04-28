@@ -233,7 +233,7 @@ footer {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   h1 {
-    font-size: 22px;
+    font-size: 25px;
   }
   .tag-line {
     font-size: 15px;
@@ -243,21 +243,21 @@ footer {
   }
   .btn {
     font-size: 12px;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 5px 8px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .download-link {
-    font-size: 12px;
+    font-size: 15px;
   }
   p {
     margin: 15px 0 10px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .home-content {
-    padding-top: 20px;
+    padding-top: 10px;
   }
   footer {
     font-size: 25px;

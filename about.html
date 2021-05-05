@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -12,13 +12,12 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="images/logo_128.png" type="image/png" />
-    <title>Freedom</title>
+    <title>About</title>
   </head>
   <body>
     <header>
       <div class="logo-container">
         <img class="freedom-logo" src="images/logo_128.png" />
-
         <h4 class="logo">Freedom</h4>
       </div>
       <nav>
@@ -27,35 +26,28 @@
           <li>
             <a href="about.html" class="nav-link">如何使用</a>
           </li>
-
+        </ul>
       </nav>
     </header>
-
-    <section class="home">
-      <!-- <img class="mockup" src="images/mockup.png" /> -->
-      <img class="cover" src="images/mockup1.png" class="" alt="" />
-      <div class="home-content">
-        <h1>
-          Freedom 是一款<br />
-          Chrome 浏览器插件
-        </h1>
-        <p class="tag-line">
-          它有且只有一个功能：屏蔽任何不必要的网站，让你能专注在更重要的事上。
-        </p>
-        <a
-          href="https://chrome.google.com/webstore/detail/freedom-website-blocker/addknbmjckakcnlnmpddbaofgjllpamd"
-          class="btn"
-          ><h2>立即安装</h2>
-          <nobr>（谷歌应用商店）</nobr></a
-        >
-        <p>
-          *若无法访问以上链接，<a
-            class="download-link"
-            href="https://freedomapp-1258563634.cos.ap-shanghai.myqcloud.com/freedom-app.crx"
-            >点击这里下载</a
-          >
-        </p>
-      </div>
+    <div class="wrapper">
+      <img class="banner" src="images/mockup2.jpg" />
+    </div>
+    <section class="tutorial">
+      <span class="steps" style="font-size: 230%; color: #000000">&#9312;</span>
+      <p>
+        安装完成后，在插件栏中点开 Freedom
+        插件。在输入框中输入想要屏蔽的网址，多个网址之间用「逗号」隔开（注意使用英文逗号）。
+      </p>
+      <span class="steps" style="font-size: 230%; color: #000000">&#9313;</span>
+      <p>网址输入完毕后，点击「Add to filter」即可将以上网站加入屏蔽列表</p>
+      <span class="steps" style="font-size: 230%; color: #000000">&#9314;</span>
+      <p>开启屏蔽模式，点击「Start Focus」</p>
+      <h2 class="faq">FAQ</h2>
+      <p class="question">Q: 开启插件后，网站没有被正确屏蔽怎么办？</p>
+      <p class="answer">
+        A: 请检查「Filter
+        list」中的网址格式，理想情况下，网址应该类似「*://*.youtube.com/*」，即以「*://」开头，「/*」结尾，不包含「http」「www」等字符。<br />若碰到网址没有正确处理的情况，可以尝试手动输入类似「youtube.com」这样的简单网址（而不是直接从浏览器地址栏复制粘贴）
+      </p>
     </section>
     <footer>
       <!-- <p class="footer-text">Created by Leo Wang @SparkCode</p> -->

@@ -27,13 +27,14 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 40px;
 }
 
 p {
-  margin: 20px 0 10px;
-  font-size: 1.1rem;
+  margin: 15px 0 10px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -83,44 +84,38 @@ header {
 nav {
   flex: 1;
 }
-.home-content {
-  position: relative;
-  margin-left: calc(50vw * 1.05);
-  /* top: 20vh;
-  right: 200px; */
-  /* top: 20%;
-  right: 100%; */
 
-  /* max-width: 500px; */
-  width: 40vw;
-
-  /* padding: 0 0 0 50px; */
+section.tutorial {
+  text-align: center;
   align-items: center;
-}
-
-section.home {
-  position: relative;
-  /* flex-direction: row; */
-  display: flex;
-  height: 80vh;
-  align-items: center;
-  width: 90%;
+  width: 50%;
   margin: auto;
 }
 
-.cover {
-  position: absolute;
-
-  left: 0;
-  max-height: 100%;
-  /* animation: drop 1.5s ease; */
-  transform: translateX(calc(50vw - 1500px));
-  margin-right: 500px;
+.steps {
+  padding: 30px 0 0 0;
+  display: block;
 }
-.download-link {
-  text-decoration: underline;
-  color: var(--primary-color);
+.banner {
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.answer {
+  font-size: 18px;
+  text-align: left;
+}
+.question {
   font-weight: 700;
+  font-size: 18px;
+  text-align: left;
+}
+.faq {
+  margin: 50px 0 30px 0;
+  border-top: 1px solid rgb(209, 209, 209);
+  padding-top: 10px;
 }
 
 /* BUTTON */
@@ -143,12 +138,15 @@ footer {
   display: flex;
   flex-direction: row;
   font-size: 30px;
-  width: 90%;
+  width: 100%;
   margin: auto;
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  /* height: 5vh; */
+  padding: 20px 0 20px 0;
+  margin-top: 50px;
+  background-color: #d1d1d1;
 }
 .footer-icon {
   color: grey;

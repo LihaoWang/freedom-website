@@ -265,8 +265,8 @@ footer {
   }
   .nav-link {
     font-size: 16px;
-    padding: 5px 10px 5px 10px;
-    display: inline-block;
+    padding: 10px;
+    white-space: nowrap;
   }
   .logo {
     font-size: 22px;

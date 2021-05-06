@@ -211,6 +211,12 @@ footer {
     flex-direction: column;
     margin-top: 15px;
   }
+  .logo-container {
+    flex: 1;
+  }
+  nav {
+    flex: 1;
+  }
   .logo {
     font-size: 30px;
   }
@@ -267,6 +273,8 @@ footer {
   }
   .nav-link {
     font-size: 16px;
+    padding: 10px;
+    white-space: nowrap;
   }
   .logo {
     font-size: 22px;

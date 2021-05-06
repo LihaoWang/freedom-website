@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url("https://fonts.useso.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700&display=swap");
 
 :root {
   --primary-color: #5591ff;
@@ -88,11 +88,12 @@ nav {
 section.tutorial {
   text-align: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
 .steps {
+  font-size: 230%;
   padding: 30px 0 0 0;
   display: block;
 }
@@ -106,6 +107,7 @@ section.tutorial {
 .answer {
   font-size: 18px;
   text-align: left;
+  line-height: 1.5;
 }
 .question {
   font-weight: 700;
@@ -114,7 +116,7 @@ section.tutorial {
 }
 .faq {
   margin: 50px 0 30px 0;
-  border-top: 1px solid rgb(209, 209, 209);
+  border-top: 2px solid rgb(209, 209, 209);
   padding-top: 10px;
 }
 
@@ -184,27 +186,10 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  section.home {
-    flex-direction: column;
-  }
   header {
     height: 15vh;
   }
-  .cover {
-    display: block;
-    transform: none;
-    width: 100%;
-    position: relative;
-    margin-right: 0;
-  }
-  .home-content {
-    top: 20px;
-    position: relative;
-    text-align: center;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    width: 90%;
-  }
+
   header {
     flex-direction: column;
     margin-top: 15px;
@@ -254,8 +239,17 @@ footer {
     margin: 15px 0 10px;
     font-size: 15px;
   }
-  .home-content {
-    padding-top: 10px;
+  .question {
+    font-size: 15px;
+  }
+  .answer {
+    font-size: 15px;
+  }
+  section.tutorial {
+    width: 90%;
+  }
+  .steps {
+    font-size: 150%;
   }
   footer {
     font-size: 25px;

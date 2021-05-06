@@ -148,7 +148,8 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  /* height: 5vh; */
+  padding: 20px 0 20px 0;
 }
 .footer-icon {
   color: grey;
@@ -246,6 +247,7 @@ footer {
   }
   section.home {
     height: 75vh;
+    margin-bottom: 60px;
   }
   .btn {
     font-size: 12px;

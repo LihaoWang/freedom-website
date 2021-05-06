@@ -61,6 +61,7 @@ header {
   text-decoration: none;
   font-size: 22px;
   font-weight: 400;
+  white-space: nowrap;
 }
 .nav-link:hover {
   color: var(--primary-color);
@@ -186,7 +187,7 @@ footer {
   } */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   section.home {
     flex-direction: column;
   }
@@ -238,7 +239,7 @@ footer {
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media (max-device-width: 812px) {
   h1 {
     font-size: 25px;
   }
@@ -246,8 +247,7 @@ footer {
     font-size: 15px;
   }
   section.home {
-    height: 75vh;
-    margin-bottom: 60px;
+    height: auto;
   }
   .btn {
     font-size: 12px;

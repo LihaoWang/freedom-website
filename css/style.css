@@ -112,11 +112,11 @@ section.home {
 .cover {
   position: absolute;
 
-  left: 0;
   max-height: 100%;
+
   /* animation: drop 1.5s ease; */
-  transform: translateX(calc(50vw - 1500px));
-  margin-right: 500px;
+  /* transform: translateX(calc(50vw - 1500px)); */
+  right: 40vw;
 }
 .download-link {
   text-decoration: underline;
@@ -200,6 +200,7 @@ footer {
     width: 100%;
     position: relative;
     margin-right: 0;
+    right: 0;
   }
   .home-content {
     top: 20px;
